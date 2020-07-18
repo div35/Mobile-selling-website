@@ -13,16 +13,16 @@ const mobileschema = new mongoose.Schema({
   //type
   company: { type: String, required: true, validate: validator.isAlpha },
   modelNo: { type: String, required: true },
-  display:{type: String, required: true},
+  display: { type: String, required: true },
   processor: { type: String, required: true },
-  ram:{type: String, required: true},
-  rom:{type: String, required: true},
+  ram: { type: String, required: true },
+  rom: { type: String, required: true },
   rear_camera: { type: String, required: true },
   front_camera: { type: String, required: true },
   battery: { type: String, required: true },
   charger: { type: String, required: true },
-  software: {type: String, required: true},
-  userInterface: {type: String, required: true},
+  software: { type: String, required: true },
+  userInterface: { type: String, required: true },
   price: { type: Number, required: true },
 });
 
