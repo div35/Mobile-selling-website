@@ -59,6 +59,21 @@ const userschema = new mongoose.Schema({
     userInterface: { type: String },
     price: { type: Number },
   }],
+  yourWishlist: [{
+    company: { type: String, validate: validator.isAlpha },
+    modelNo: { type: String },
+    display: { type: String },
+    processor: { type: String },
+    ram: { type: String },
+    rom: { type: String },
+    rear_camera: { type: String },
+    front_camera: { type: String },
+    battery: { type: String },
+    charger: { type: String },
+    software: { type: String },
+    userInterface: { type: String },
+    price: { type: Number },
+  }],
   reset_token: { type: String }
 });
 
