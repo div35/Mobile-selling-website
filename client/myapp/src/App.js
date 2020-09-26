@@ -1,8 +1,12 @@
 import React from 'react';
-import './App.css';
+import Navbar from "./components/navbar/navbar"
 
 function App() {
-  return (<h1>Mobile Selling App</h1>);
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;

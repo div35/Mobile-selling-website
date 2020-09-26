@@ -1,0 +1,86 @@
+.Top_navbar {
+  display: flex;
+  margin: 3rem;
+}
+
+.Search {
+  display: flex;
+}
+
+.Search_bar {
+  width: 25rem;
+  height: 45px;
+  margin-left: 200px;
+  border: 1px #ccc solid;
+  font-size: medium;
+  border-radius: 1.5rem;
+}
+
+.Search_button {
+  width: 60px;
+  height: 30px;
+  margin: 7px;
+  margin-left: 20px;
+  border-radius: 1.5rem;
+  background-color: rgb(63, 181, 218);
+  color: white;
+}
+
+.Account_section {
+  list-style: none;
+  display: flex;
+  margin-left: 9rem;
+}
+
+.Myaccount {
+  margin-right: 4rem;
+}
+
+.Bottom_navbar {
+  display: flex;
+  background-color: rgb(63, 181, 218);
+  font-size: large;
+  height: 4rem;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.Home {
+  margin-top: 1.2rem;
+  margin-left: 50px;
+}
+
+.Mobile {
+  margin-top: 1.2rem;
+  margin-left: 50px;
+}
+
+.Mobile:hover .dropdown {
+  display: block;
+}
+
+.AboutUs {
+  margin-top: 1.2rem;
+  margin-left: 50px;
+}
+
+.ContactUs {
+  margin-top: 1.2rem;
+  margin-left: 50px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: rgb(63, 181, 218);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown_content {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
